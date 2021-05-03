@@ -9,6 +9,12 @@
   <style>
     @media only screen and (max-width: 768px) {
       body {
+        -moz-transform: scale(0.75);
+        -webkit-transform: scale(0.75);
+        transform: scale(0.75);
+      }
+
+      #battleGround {
         -moz-transform: scale(0.5);
         -webkit-transform: scale(0.5);
         transform: scale(0.5);
@@ -20,7 +26,7 @@
 <body>
   <h1>SuperHeroes Battle Simulator!</h1>
 
-  <lable>Choose two Superheroes:</lable>
+  <label>Choose two Superheroes:</label>
 
   <select id="hero1">
     <option value="-1">Choose Hero 1</option>
